@@ -50,10 +50,12 @@ class OllamaLLM(LLM):
         payload = {
             "model": self.model,
             "prompt": prompt,
-            "options": {"max_tokens": max_tokens},
-            "temperature": 0.1,    # Controls the randomness of the output. (deterministic )
-            "top_p": 0.9,
-            "stop": ["\n", "END"]
+            "options": {
+                "max_tokens": max_tokens
+                "temperature": 0.1,    # Controls the randomness of the output. (deterministic )
+                "top_p": 0.9,
+                "stop": ["\n", "END"]
+            }
         }
         response = requests.post(f"{self.base_url}/api/generate", json=payload)
         

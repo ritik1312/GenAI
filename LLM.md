@@ -1,3 +1,8 @@
+## Optimizing LLM Accuracy
+<img src="https://cdn.openai.com/API/docs/images/diagram-optimizing-accuracy-01.png" width=800>
+
+
+
 # LangChain <svg xmlns="http://www.w3.org/2000/svg">
 **LangChain** is an open-source framework which allows developers to build  **Large Language Models (LLMs)** applications easily by simplifying the integration of 
 data sources, external tools, and workflows. 

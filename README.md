@@ -25,3 +25,5 @@ They can be used for code generation also.
 7. RAG systems
 8. Fine Tuning LLMs
 9. LangChain Ecosystem (LangSmith, LangGraph)
+
+<div align="center"><img src="1738896529301.gif" width="486" height="729"></div>
